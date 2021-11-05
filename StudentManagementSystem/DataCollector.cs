@@ -8,6 +8,7 @@ namespace StudentManagementSystem
 {
     static void CallProgram(string[] arr, int count)
     {
+
         Greeting(count);
         int n1 = int.Parse(Console.ReadLine());
         if (n1 == 1)
