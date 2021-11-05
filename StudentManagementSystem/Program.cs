@@ -12,7 +12,13 @@ namespace StudentManagementSystem
         {
             Student student = new Student();
             Student student1 = new Student("Roman", 15, "Math");
-            
+            Student[] student2 = new Student[4];
+            for (int i = 0; i < 4; i++)
+            {
+                student2[i] = new Student($"name-{i}", i, "Math");
+            }
+
+
         }
     }
 }
