@@ -17,5 +17,6 @@ namespace StudentManagementSystem
         {
             _subject = subject;
         }
+
     }
 }
